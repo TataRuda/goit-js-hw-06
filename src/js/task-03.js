@@ -12,6 +12,7 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+<<<<<<< HEAD
 
 const ulImages = document.querySelector('.gallery');
 ulImages.style.display = "flex";
@@ -26,3 +27,5 @@ images.forEach(elem => {
   );
 });
 
+=======
+>>>>>>> 71c87a3c08aa2bb4c524b56af0ea5115e184ea29
