@@ -1,8 +1,8 @@
 let outputElem = document.querySelector('#name-output');
 let inputElem = document.querySelector('#name-input');
 
-inputElem.addEventListener("input",  onInputChange);
-
-function onInputChange(event){
-inputElem !== ' ' ? (outputElem.textContent = event.currentTarget.value) : 'Anonymous';    
-};
+inputElem.addEventListener("input", (event) => {
+outputElem.textContent = event.currentTarget.value;
+if(outputElem.textContent == ' '){
+outputElem.textContent = 'Anonymous' };    
+});
